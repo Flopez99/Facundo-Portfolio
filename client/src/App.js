@@ -1,9 +1,12 @@
-import logo from './Charmy.png';
-import './App.css';
+import logo from './pictures/Charmy.png';
+import './styling/App.css';
+import Navbar from './Navbar.js'
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -12,7 +15,7 @@ function App() {
         <a
           className="App-link"
           href="https://github.com/Flopez99"
-          target="_blank"
+          target="_blank" 
           rel="noopener noreferrer"
         >
           GitHub
