@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/Facundo-Portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/Facundo-Portfolio/static/js/main.f9855143.js",
-    "static/js/453.419a5d54.chunk.js": "/Facundo-Portfolio/static/js/453.419a5d54.chunk.js",
+    "main.css": "/Facundo-Portfolio/static/css/main.09602783.css",
+    "main.js": "/Facundo-Portfolio/static/js/main.7ca56b33.js",
     "static/media/Charmy.png": "/Facundo-Portfolio/static/media/Charmy.6a805dbfdead33c49fc2.png",
     "index.html": "/Facundo-Portfolio/index.html",
-    "main.f855e6bc.css.map": "/Facundo-Portfolio/static/css/main.f855e6bc.css.map",
-    "main.f9855143.js.map": "/Facundo-Portfolio/static/js/main.f9855143.js.map",
-    "453.419a5d54.chunk.js.map": "/Facundo-Portfolio/static/js/453.419a5d54.chunk.js.map"
+    "main.09602783.css.map": "/Facundo-Portfolio/static/css/main.09602783.css.map",
+    "main.7ca56b33.js.map": "/Facundo-Portfolio/static/js/main.7ca56b33.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.f9855143.js"
+    "static/css/main.09602783.css",
+    "static/js/main.7ca56b33.js"
   ]
 }
