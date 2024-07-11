@@ -14,6 +14,15 @@ function App() {
         </p>
         <a
           className="App-link"
+          href="https://flopez99.github.io/PersonalSite/"
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          Click here for my OLD Portfolio!
+        </a>
+        <br/>
+        <a
+          className="App-link"
           href="https://github.com/Flopez99"
           target="_blank" 
           rel="noopener noreferrer"
