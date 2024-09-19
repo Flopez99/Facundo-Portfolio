@@ -1,36 +1,33 @@
-import logo from './pictures/Charmy.png';
-import './styling/App.css';
-import Navbar from './Navbar.js'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './styling/index.css';
+import AboutPage from './pages/AboutPage'
+import ContactPage from './pages/ContactPage'
+import PlaygroundPage from './pages/PlaygroundPage'
+import ProjectsPage from './pages/ProjectsPage'
 
+import {BrowserRouter, Route} from 'react-router-dom'
+import HomePage from './pages/HomePage';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<AboutPage/>} />
+      <Route path="/projects" element={<ProjectsPage />} />
+      <Route path="/playground" element={<PlaygroundPage />} />
+      <Route path="/contact" element={<ContactPage />} />
+    </BrowserRouter>
+  </React.StrictMode>
+);
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to my NEW Portfolio!!
-        </p>
-        <a
-          className="App-link"
-          href="https://flopez99.github.io/PersonalSite/"
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          Click here for my OLD Portfolio!
-        </a>
-        <br/>
-        <a
-          className="App-link"
-          href="https://github.com/Flopez99"
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/contact" element={<ContactPage />} />
+    </Routes>
   );
 }
 

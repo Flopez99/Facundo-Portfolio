@@ -11,9 +11,8 @@ function Navbar() {
   };
 
   return (
-    <nav className="navBar">
-      <div className="navbar-container">
-       
+    <nav className="navBar">       
+        <a class="navbar-brand" href="/"> &lt;/&gt; Facundo Lopez</a>
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
           <ul>
             <li><Link to="/">Home</Link></li>
@@ -23,7 +22,6 @@ function Navbar() {
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
-      </div>
       <button className="navbar-toggle" onClick={toggleNavbar}>
         <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
       </button>
