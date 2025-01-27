@@ -1,11 +1,11 @@
 /* Main navbar styles */
 .navBar {
-  background-color: #27374D;
+  background-color: #2E2E2E;
   overflow: hidden;
   display: flex;
   justify-content: space-between;;
   align-items: center;
-  position: fixed;
+  position: absolute;
   height: 80px; /* Increase the height of the navbar */
   width: 100%;
   z-index: 888;
@@ -31,6 +31,7 @@
   flex: 1; /* Equal width distribution */
 }
 
+
 .navBar li a {
   color: white;
   text-align: center;
@@ -39,11 +40,14 @@
   padding: 0 20px; /* Adjust horizontal padding */
   height: 100%; /* Make sure a takes the full height of the navbar */
   line-height: 80px; /* Align text vertically */
+  transition: color 0.3s ease;
+
 }
 
 .navBar li a:hover {
-  background-color: #9DB2BF;
+  color: #BFBFBF;
 }
+
 
 /* Navbar toggle button for mobile view */
 .navbar-toggle {
@@ -102,6 +106,7 @@
   .navbar-links li {
     width: 100%;
     text-align: center;
+
   }
 
   .navbar-links li a {

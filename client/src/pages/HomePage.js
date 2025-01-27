@@ -1,35 +1,37 @@
-import logo from '../pictures/Charmy.png';
+import logo from '../assets/Profile_Pic_Circle.jpg';
 import '../styling/App.css';
-import Navbar from '../Navbar.js'
 
 function HomePage() {
   return (
     <div className="App">
-      <Navbar/>
+      <body className='App-header'>
+        <div className='homepage-picture'>
+          <h1 className='intro'>Hello, World!</h1>
+          <h1 className='intro-2'>I'm Facundo!</h1>
+        </div>
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to my NEW Portfolio!!
-        </p>
-        <a
-          className="App-link"
-          href="https://flopez99.github.io/PersonalSite/"
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          Click here for my OLD Portfolio!
-        </a>
-        <br/>
-        <a
-          className="App-link"
-          href="https://github.com/Flopez99"
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </header>
+        <div className='homepage-content'>
+          <div className='profile-section'>
+            <img src={logo} className="App-logo" alt="logo" />
+            {/* <div className='personal-introduction'>
+              <h2>Who am I?</h2>
+              <p>I’m a recent graduate passionate about software development, with experience in full-stack development, game development, and machine learning. I love traveling and exploring in my free time.</p>
+            </div> */}
+          </div>
+
+          <div className='section'>
+            <h1 className='section-header'>
+              Welcome to my Portfolio,
+            </h1>
+            <p className='section-text'> Here, you'll discover insights into my journey as a developer, showcasing my skills and experiences. Explore the projects I've worked on, check out a small playground for coding showcases, and find all the ways to connect with me. Nice to meet you!</p>
+            <div className='personal-introduction'>
+              <h2>Who am I?</h2>
+              <p>I’m a recent graduate passionate about software development, with experience in full-stack development, game development, and machine learning. I love traveling and exploring in my free time. Feel free to look around and learn more!</p>
+            </div>
+          </div>
+          <br/>
+        </div>
+      </body>      
     </div>
   );
 }

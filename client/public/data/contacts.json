@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "GitHub",
+        "username": "Flopez99",
+        "image": "github1.svg",
+        "link": "https://github.com/Flopez99"
+    },
+    {
+        "id": 2,
+        "name": "LinkedIn",
+        "username": "facundo-lopezcamino",
+        "image": "linkedin.png",
+        "link": "https://www.linkedin.com/in/facundo-lopezcamino/"
+    },
+    {
+        "id": 3,
+        "name": "LeetCode",
+        "username": "FacundoLopz99",
+        "image": "leetcode.png",
+        "link": "https://leetcode.com/u/FacundoLopz99/"
+    },
+    {
+        "id": 4,
+        "name": "YouTube",
+        "username": "FLCreations",
+        "image": "youtube.png",
+        "link": "https://www.youtube.com/@FLCreations99"
+    },
+    {
+        "id": 5,
+        "name": "Instagram",
+        "username": "facundito_999",
+        "image": "instagram.png",
+        "link": "https://www.instagram.com/facundito_999/"
+    },
+    {
+        "id": 6,
+        "name": "Gmail",
+        "username": "flopezcamino99@gmail.com",
+        "image": "gmail.png",
+        "link": "mailto:flopezcamino99@gmail.com"
+    }
+
+]

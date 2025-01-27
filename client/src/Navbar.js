@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import './styling/Navbar.css';
+import './styling/Navbar.css'; 
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav className="navBar">       
-        <a class="navbar-brand" href="/"> &lt;/&gt; Facundo Lopez</a>
+        <a className="navbar-brand" href="/"> &lt;/&gt; Facundo Lopez</a>
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
           <ul>
             <li><Link to="/">Home</Link></li>

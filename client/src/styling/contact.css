@@ -1,0 +1,78 @@
+.page-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4em auto 0;
+    align-items: center;
+}    
+
+.title {
+    font-size: 2em;
+    color: #2E2E2E;
+    margin-bottom: 0.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+
+.subtitle {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 1.5em;
+    font-family: 'Arial', sans-serif;
+    max-width: 600px; /* Limits the width of the paragraph for better readability */
+}
+
+
+
+.page-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1000px; /* Max width for the grid */
+    margin: 8vh auto; /* Center the grid container */
+}
+
+.link-card {
+  text-decoration: none; /* Remove underline from the link */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px; /* Fixed width for all cards */
+  height: 250px; /* Fixed height for all cards */
+  background-color: #ffffff; /* White background */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow: hidden; /* Prevent overflow from image */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+.link-card:hover {
+  transform: scale(1.05); /* Slight scaling on hover */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Increase shadow intensity */
+}
+
+.img-container {
+  width: 100%; /* Ensure the image fills the width */
+  height: 70%; /* Take up 70% of the card's height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent; /* Light gray background for consistency */
+}
+
+.link-image {
+  width: 100%; /* Scale image within its container */
+  height: 100%; /* Prevent stretching */
+  object-fit: contain; /* Contain the image within bounds */
+  background: none;
+  
+}
+
+.contact-name {
+  text-align: center; /* Center align the text */
+  font-size: 1.1em; /* Adjust font size */
+  color: #333333; /* Neutral dark gray color */
+  font-family: 'Roboto', sans-serif; /* Clean font */
+  margin: 10px 0; /* Add spacing above and below the text */
+}

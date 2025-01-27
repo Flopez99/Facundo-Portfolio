@@ -1,19 +1,73 @@
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
 .App {
   text-align: center;
   z-index: 888;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
+  padding-top: 50px;
+  margin-left: 50px;
+  
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-
   }
-  
+} */
+
+
+.section{
+  padding-top: 5%;
+  text-align: left;
+
+}
+
+.section-header {
+  color: #2E2E2E; /* Dark gray for a clean look */
+  font-family: 'Roboto', sans-serif; /* Ensure fallback font */
+  text-decoration: none; /* Underlined for emphasis */
+  margin-bottom: 20px; /* Increased space for better separation */
+  font-size: 1.8em; /* Larger font size for prominence */
+  font-weight: bold; /* Bold text for added emphasis */
+}
+
+.section-text {
+  color: #4A4A4A; /* Slightly lighter gray for contrast */
+  font-family: 'Roboto', sans-serif; /* Consistent font family */
+  font-size: 1em; /* Standard font size for readability */
+  line-height: 1.6; /* Improved line spacing for better readability */
+  margin-bottom: 20px; /* Space between paragraphs */
+}
+
+.personal-introduction {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px; /* Space between sections */
+  /* margin-left: 5%; */
+}
+
+.personal-introduction h2 {
+  color: #2E2E2E; /* Match your existing color palette */
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em; /* Size to differentiate from body text */
+}
+
+.personal-introduction p {
+  color: #333; /* Darker gray for better readability */
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-header {
@@ -22,13 +76,63 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.homepage-content{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  gap: 50px;
+  align-content: flex-start;
+}
+
+
+.homepage-picture{
+  background-image: url('../assets/new-york-skyline.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position:relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.intro{
+  font-family: 'Roboto';
+  font-size:2em;
+  position:absolute;
+  bottom:20%;
+  color: #FFFFFF;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.intro-2{
+  font-family: 'Roboto';
+  font-size:2em;
+  position:absolute;
+  bottom:10%;
+  color: #FFFFFF;
+  animation: fadeIn 4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start fully transparent */
+  }
+  to {
+    opacity: 1; /* End fully opaque */
+  }
 }
 
 @keyframes App-logo-spin {
@@ -39,3 +143,4 @@
     transform: rotate(360deg);
   }
 }
+

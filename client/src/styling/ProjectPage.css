@@ -1,0 +1,112 @@
+.page-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4em auto 0;
+    align-items: center;
+}    
+
+/* Container to hold all project cards */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Responsive grid */
+    gap: 50px; /* Space between cards */
+    padding: 20px;
+    max-width: 1200px; /* Centered layout with max width */
+    margin: 0 auto;
+    justify-items: center; /* Aligns cards to the center of their grid cell */
+}
+
+/* Individual project card styling */
+.project-card {
+    background-color: #ebe8e8;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Adds depth */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 350px; /* Fixed width for uniform size */
+    height: 480px; /* Fixed height for uniform size */
+    overflow: hidden; /* Prevents content overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Subtle lift effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Image container for added control */
+.img-container {
+    width: 100%; /* Full width */
+    height: 200px; /* Fixed height for uniform image area */
+    background-color: #f4f4f4; /* Neutral background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures images do not overflow */
+}
+
+/* Project image styling */
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    display: block; /* Standardizes image display */
+}
+
+/* Project name styling */
+.project-name {
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #333;
+    margin: 12px 0;
+}
+
+/* Project description styling */
+.project-description {
+    font-size: 0.85em;
+    color: #666;
+    line-height: 1.4;
+    text-align: left; /* Improves readability */
+    padding: 0 15px;
+    margin-bottom: auto;
+    max-height: 200px; /* Restricts height */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adds "..." for overflow text */
+    -webkit-box-orient: vertical;
+    z-index: 100;
+}
+
+/* Button styling */
+.project-button {
+    z-index: 10;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #007BFF; /* Vibrant blue */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px; /* Pushes button to the bottom of the card */
+    transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjusts grid for smaller screens */
+        gap: 15px;
+    }
+
+    .project-card {
+        width: 100%; /* Allow cards to adapt to smaller screen sizes */
+    }
+}

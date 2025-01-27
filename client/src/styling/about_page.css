@@ -1,0 +1,67 @@
+.About-header {
+  background-color: #DDE6ED; /* A lighter background for contrast */
+  min-height: 100vh; /* Keeps the full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Align items at the top */
+  padding: 20px; /* Add some padding for spacing */
+  font-size: calc(10px + 2vmin);
+  color: #2E2E2E; /* Darker text color for better readability */
+}
+
+.about-section {
+  max-width: 800px; /* Limit the width of content for better readability */
+  padding: 20px; /* Add padding inside the section */
+  background-color: #FFFFFF; /* White background for content section */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.section-header {
+  font-family: 'Roboto', sans-serif; /* Use your chosen font */
+  font-size: 2.0em; /* Larger font size for the header */
+  margin-bottom: 10px; /* Space below the header */
+}
+
+.section-text {
+  font-size: .7em; /* Slightly larger font size for body text */
+  line-height: 1.6; /* Improved readability with line height */
+}
+
+.about-container {
+  display: flex;
+  gap: 100px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 2em auto;
+}
+
+.skills-values {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.about-content {
+  flex: 2;
+  min-width: 300px;
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+.section-header {
+  font-size: 1.8em;
+  color: #2E2E2E;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-text {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 15px;
+}
