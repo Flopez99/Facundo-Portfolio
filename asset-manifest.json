@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/Facundo-Portfolio/static/css/main.b9d69d9a.css",
-    "main.js": "/Facundo-Portfolio/static/js/main.960fe4d0.js",
+    "main.css": "/Facundo-Portfolio/static/css/main.80d6b783.css",
+    "main.js": "/Facundo-Portfolio/static/js/main.3a270189.js",
+    "static/media/new-york-skyline.jpg": "/Facundo-Portfolio/static/media/new-york-skyline.36be423dfb8fa0debbb3.jpg",
+    "static/media/Profile_Pic_Circle.jpg": "/Facundo-Portfolio/static/media/Profile_Pic_Circle.9afbe545a692d27fff4f.jpg",
     "static/media/Charmy.png": "/Facundo-Portfolio/static/media/Charmy.6a805dbfdead33c49fc2.png",
     "index.html": "/Facundo-Portfolio/index.html",
-    "main.b9d69d9a.css.map": "/Facundo-Portfolio/static/css/main.b9d69d9a.css.map",
-    "main.960fe4d0.js.map": "/Facundo-Portfolio/static/js/main.960fe4d0.js.map"
+    "main.80d6b783.css.map": "/Facundo-Portfolio/static/css/main.80d6b783.css.map",
+    "main.3a270189.js.map": "/Facundo-Portfolio/static/js/main.3a270189.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9d69d9a.css",
-    "static/js/main.960fe4d0.js"
+    "static/css/main.80d6b783.css",
+    "static/js/main.3a270189.js"
   ]
 }
