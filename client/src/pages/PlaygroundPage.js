@@ -1,6 +1,4 @@
 import '../styling/App.css';
-import Navbar from '../Navbar.js'
-import Footer from '../Footer';
 function PlaygroundPage() {
   return (
     <div className="PlaygroundPage">

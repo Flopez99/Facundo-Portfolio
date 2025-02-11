@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 function Footer(){
 
@@ -11,21 +12,21 @@ function Footer(){
             <div className="footer-section">
               <h3>Quick Links</h3>
               <div className="social-icons">
-                <a href="#">Home<i className="fab fa-github"></i></a>
-                <a href="">About<i className="fab fa-linkedin"></i></a>
-                <a href="">Projects<i className="fab fa-instagram"></i></a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
               </div>
             </div>
             <div className="footer-section">
               <h3>Follow Me</h3>
               <div className="social-icons">
-                <a href="#">GitHub<i className="fab fa-github"></i></a>
-                <a href="">LinkedIn<i className="fab fa-linkedin"></i></a>
-                <a href="">Instagram<i className="fab fa-instagram"></i></a>
+                <a href="https://github.com/Flopez99">GitHub<i className="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/facundo-lopezcamino/">LinkedIn<i className="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/facundito_999/">Instagram<i className="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
-          <p className="footer-credit">© 2024 Facundo Lopez Camino. All rights reserved.</p>
+          <p className="footer-credit">© 2025 Facundo Lopez Camino. All rights reserved.</p>
        </footer>
     );
 }

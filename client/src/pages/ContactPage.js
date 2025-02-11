@@ -1,4 +1,3 @@
-import logo from '../assets/Charmy.png';
 import '../styling/App.css';
 import '../styling/contact.css';
 import { useState, useEffect } from 'react';

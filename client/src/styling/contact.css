@@ -22,14 +22,12 @@
     max-width: 600px; /* Limits the width of the paragraph for better readability */
 }
 
-
-
 .page-links{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     max-width: 1000px; /* Max width for the grid */
-    margin: 8vh auto; /* Center the grid container */
+    margin: 1vh auto; /* Center the grid container */
 }
 
 .link-card {
