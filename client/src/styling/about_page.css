@@ -65,3 +65,45 @@
   color: #333;
   margin-bottom: 15px;
 }
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  /* Adjust About Container layout for smaller screens */
+  .about-container {
+    flex-direction: column; /* Stack sections vertically */
+    gap: 20px; /* Reduced gap for mobile */
+    padding: 30px; /* Reduced padding for mobile */
+  }
+
+  /* Adjust the width of the sections */
+  .skills-values {
+    min-width: 100%; /* Take full width on mobile */
+    max-width: 100%; /* Take full width on mobile */
+  }
+
+  .about-content {
+    min-width: 100%; /* Take full width on mobile */
+  }
+
+  /* Adjust the text sizes for mobile */
+  .section-header {
+    font-size: 1.5em; /* Adjust header font size */
+    margin-bottom: 10px;
+  }
+
+  .section-text {
+    font-size: 0.9em; /* Slightly larger font size for body text */
+    line-height: 1.5; /* Improved readability on mobile */
+  }
+  
+  /* Adjust the padding of .about-section */
+  .about-section {
+    padding: 15px; /* Reduced padding on mobile */
+  }
+
+  /* Adjust margin for header */
+  .About-header {
+    padding: 20px; /* Reduced padding on mobile */
+  }
+}

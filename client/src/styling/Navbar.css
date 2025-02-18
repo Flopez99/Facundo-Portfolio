@@ -8,7 +8,7 @@
   position: absolute;
   height: 80px; /* Increase the height of the navbar */
   width: 100%;
-  z-index: 888;
+  z-index: 999;
 
 }
 
@@ -51,12 +51,13 @@
 
 /* Navbar toggle button for mobile view */
 .navbar-toggle {
+  color:white;
   font-size: 1.5rem;
   cursor: pointer;
   display: none; /* Hide by default */
   background: none;
   border: none;
-  padding: 10px;
+  padding: 30px;
   margin: 0;
   position: relative;
   z-index: 1000; /* Ensure it's on top */
@@ -73,12 +74,12 @@
 /* Media query for mobile view */
 @media (max-width: 768px) {
   .navbar-links {
-    position: fixed;
+    position: absolute;
     top: 80px; /* Match this with the height of .navBar */
     left: 0;
     height: 60%;
     width: 100%;
-    background-color: #27374D;
+    background-color: #2E2E2E;
     transform: translateY(calc(-100% - 80px)); 
     transition: transform 0.3s ease-in-out;
     z-index: 999;
@@ -91,9 +92,12 @@
   }
   
   .navbar-links.active {
+    position: fixed;
     transform: translateY(0);
     opacity: 1;
     visibility: visible; /* Show the links */
+    z-index: 999;
+    overflow-y: auto;
   }
 
   .navbar-links ul {

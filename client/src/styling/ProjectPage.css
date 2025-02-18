@@ -99,14 +99,14 @@
     background-color: #0056b3; /* Darker blue on hover */
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .projects-container {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Adjusts grid for smaller screens */
+        grid-template-columns: 1fr; /* One project per row */
         gap: 15px;
     }
 
-    .project-card {
-        width: 100%; /* Allow cards to adapt to smaller screen sizes */
+    .project-name {
+        font-size: 2rem; /* Larger font size for mobile */
+        margin: 8px 0; /* Adjust margin for better spacing */
     }
 }

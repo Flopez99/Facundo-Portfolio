@@ -15,11 +15,11 @@ function Navbar() {
         <a className="navbar-brand" href="/"> &lt;/&gt; Facundo Lopez</a>
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
+            <li onClick={toggleNavbar}><Link to="/">Home</Link></li>
+            <li onClick={toggleNavbar}><Link to="/about">About</Link></li>
+            <li onClick={toggleNavbar}><Link to="/projects">Projects</Link></li>
             {/* <li><Link to="/playground">Playground</Link></li> */}
-            <li><Link to="/contact">Contact</Link></li>
+            <li onClick={toggleNavbar}><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
       <button className="navbar-toggle" onClick={toggleNavbar}>
