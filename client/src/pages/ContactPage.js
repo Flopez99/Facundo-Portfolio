@@ -31,7 +31,7 @@ function ContactPage() {
       <header className="App-header">
         <div className='page-header'>
           <h2 className='title'>Get in Touch</h2>
-          <p className='subtitle'>I'm always happy to connect! Reach out through any of the platforms below.</p>  
+          <p className='subtitle'>I'm always happy to connect! <br/> Reach out through any of the platforms below.</p>  
         </div>
 
         <div className="page-links">

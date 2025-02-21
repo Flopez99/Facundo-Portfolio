@@ -1,11 +1,3 @@
-.page-header{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 4em auto 0;
-    align-items: center;
-}    
-
 .title {
     font-size: 2em;
     color: #2E2E2E;
@@ -28,6 +20,7 @@
     gap: 30px;
     max-width: 1000px; /* Max width for the grid */
     margin: 1vh auto; /* Center the grid container */
+    padding-bottom: 5vh;
 }
 
 .link-card {
@@ -61,10 +54,10 @@
 
 .link-image {
   width: 100%; /* Scale image within its container */
-  height: 100%; /* Prevent stretching */
   object-fit: contain; /* Contain the image within bounds */
   background: none;
-  
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes extra spacing */
 }
 
 .contact-name {
@@ -75,16 +68,19 @@
   margin: 10px 0; /* Add spacing above and below the text */
 }
 
-
-
 @media (max-width: 768px) {
+  .link-card{
+    width: 180px;
+
+  }
+
   .page-links {
     grid-template-columns: repeat(2, 1fr);
-      gap: 15px;
+    gap: 20px;
   }
 
   .contact-name {
-      font-size: 2rem; /* Larger font size for mobile */
-      margin: 8px 0; /* Adjust margin for better spacing */
+     font-size: 2rem; /* Larger font size for mobile */
+    margin: 8px 0; /* Adjust margin for better spacing */
   }
 }

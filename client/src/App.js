@@ -1,5 +1,6 @@
 import React from 'react';
 import './styling/index.css';
+import './styling/App.css'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 // import PlaygroundPage from './pages/PlaygroundPage'
