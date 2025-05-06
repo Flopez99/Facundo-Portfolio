@@ -66,7 +66,7 @@
         "id": 10,
         "name": "Trading Platform",
         "description": "C-based trading app using semaphores for real-time stock buying and selling with multiple users.",
-        "image": "project1.png",
+        "image": "trade.jpg",
         "link": "https://github.com/Flopez99?tab=repositories"
     }
 ]
