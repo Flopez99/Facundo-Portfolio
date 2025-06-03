@@ -1,6 +1,9 @@
 import '../../styling/ProjectPage.css';
 
+
 function ProjectCard({ project }) {
+    let technologies = project.techs.split(', ')
+
     return (
         <div className="project-card">
             <div className="img-container">
@@ -8,7 +11,17 @@ function ProjectCard({ project }) {
             </div>
             <h3 className="project-name">{project.name}</h3>
             <p className="project-description">{project.description}</p>
-            <a href={project.link} className="project-button">View</a>
+            <div className='card-footer'>
+                <div className='tech-tags'>
+                    {technologies.map((tech, index) => (
+                        <span key={index} className="tech-tag">{tech}</span>
+                    ))}
+                </div>
+                <a href={project.link} className="project-button">View</a>
+            </div>
+            
+            
+            
         </div>
     ); 
 }

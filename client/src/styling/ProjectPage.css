@@ -15,16 +15,20 @@
 .project-card {
     background-color: #ebe8e8;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Adds depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 350px; /* Fixed width for uniform size */
-    height: 480px; /* Fixed height for uniform size */
-    overflow: hidden; /* Prevents content overflow */
+    width: 350px;
+    min-height: 480px;
+    height: auto;
+    overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-sizing: border-box;
+    justify-content: space-between;
 }
+
+
 
 .project-card:hover {
     transform: translateY(-5px); /* Subtle lift effect */
@@ -67,7 +71,7 @@
     line-height: 1.4;
     text-align: left; /* Improves readability */
     padding: 0 15px;
-    margin-bottom: auto;
+    margin-bottom: 10px;
     max-height: 200px; /* Restricts height */
     overflow: hidden;
     text-overflow: ellipsis; /* Adds "..." for overflow text */
@@ -85,12 +89,41 @@
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    margin-top: 15px; /* Pushes button to the bottom of the card */
+    margin-top: auto; /* Pushes button to the bottom of the card */
     transition: background-color 0.3s ease;
 }
 
 .project-button:hover {
     background-color: #0056b3; /* Darker blue on hover */
+}
+
+.tech-tags {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.tech-tag {
+    background-color: #666;
+    color: white;
+    padding: 0.3rem 0.75rem;
+    border-radius: 9999px; /* pill shape */
+    font-size: 0.85rem;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+}
+
+.tech-tag:hover {
+    background-color: #c7d2fe;
+}
+
+.card-footer {
+    margin-top: 0; /* pushes this section to the bottom */
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 768px) {

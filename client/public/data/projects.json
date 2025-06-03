@@ -4,69 +4,79 @@
         "name": "Sheet2App",
         "description": "Transforms spreadsheet data into functional web apps with React and Express, streamlining app creation for non-technical users.",
         "image": "sheet2app.png",
-        "link": "https://github.com/Flopez99/Sheet2App"
+        "link": "https://github.com/Flopez99/Sheet2App",
+        "techs":"React, Express.js, MySQL, Node.js"
     },
     {
         "id": 2,
         "name": "Stack Overflow Clone",
         "description": "A MERN stack app replicating Stack Overflow, supporting questions, answers, voting, and user profiles.",
         "image": "fake_stack_overflow.png",
-        "link": "https://github.com/Flopez99/StackOverflowMock"
+        "link": "https://github.com/Flopez99/StackOverflowMock",
+        "techs":"React, Express.js, MySQL, Node.js"
     },
     {
         "id": 3, 
         "name": "Amphibious Arcana",
         "description": "A 2D platformer built with TypeScript, featuring smooth mechanics, vibrant visuals, and engaging level design.",
         "image": "amphibious_arcana.png",
-        "link": "https://github.com/NickGuz/amphibious-arcana"
+        "link": "https://github.com/NickGuz/amphibious-arcana",
+        "techs":"TypeScript, Wolfie2D, Game Physics"
     },
     {
         "id": 4,
         "name": "Hiking Application",
         "description": "JavaFX and SQL app for hikers to discover, organize, and track hikes with an intuitive GUI.",
         "image": "hiking.png",
-        "link": "https://github.com/Hiking-App"
+        "link": "https://github.com/Hiking-App",
+        "techs":"JavaFX, MySQL, Maven, JDBC"
     },
     {
         "id": 5,
         "name": "Library Management",
         "description": "JavaFX app for managing book checkouts with a user-friendly login and responsive interface.",
         "image": "library.png",
-        "link": "https://github.com/Library-Mock"
+        "link": "https://github.com/Library-Mock",
+        "techs":"JavaFX, MongoDB, Maven, JDBC"
     },
     {
         "id": 6,
         "name": "College Management",
         "description": "JavaFX and SQL app for managing academics with role-based access for students, teachers, and admins.",
         "image": "online-college.png",
-        "link": "https://github.com/College-Register-System"
+        "link": "https://github.com/College-Register-System",
+        "techs":"JavaFX, MySQL, Role Access, JDBC"
     },
     {
         "id": 7,
         "name": "Space Cowboys",
         "description": "Java-based infinite sidescroller game where players pilot a spaceship through waves of enemies.",
         "image": "space-cowboys.png",
-        "link": "https://github.com/Space-Cowboys"
+        "link": "https://github.com/Space-Cowboys",
+        "techs":"Java, 2D Game, Game Loop, OOP"
     },
     {
         "id": 8,
         "name": "Banking System",
         "description": "Console-based Java app for managing bank accounts, enabling secure transactions and balance views.",
         "image": "bank.png",
-        "link": "https://github.com/Banking-Console"
+        "link": "https://github.com/Banking-Console",
+        "techs":"Java, MongoDB, Console App, JDBC"
     },
     {
         "id": 9,
         "name": "7-Segment Display",
         "description": "MIPS assembly program simulating a 7-segment display, showcasing hardware interaction with binary logic.",
         "image": "7-segment.png",
-        "link": "https://github.com/7-Segment-Display"
+        "link": "https://github.com/7-Segment-Display",
+        "techs":"MIPS Assembly, Binary Logic, Hardware Simulation"
     },
     {
         "id": 10,
         "name": "Trading Platform",
         "description": "C-based trading app using semaphores for real-time stock buying and selling with multiple users.",
         "image": "trade.jpg",
-        "link": "https://github.com/Flopez99?tab=repositories"
+        "link": "https://github.com/Flopez99?tab=repositories",
+        "techs":"C, Multithreading, Semaphores, Concurrency"
     }
 ]
