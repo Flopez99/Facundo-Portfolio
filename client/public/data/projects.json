@@ -48,6 +48,22 @@
         "techs":"JavaFX, MySQL, Role Access, JDBC"
     },
     {
+        "id": 11,
+        "name": "Cashier Simulator",
+        "description": "Flutter application that allows users to practice their counting skills as a cashier giving change back to customers.",
+        "image": "cashier_sim.png",
+        "link": "https://github.com/Flopez99/Cashier-Simulator",
+        "techs":"Flutter, Dart, Android, Mobile"
+    },
+    {
+        "id": 12,
+        "name": "Daily Count",
+        "description": "Flutter application that lets users create, delete, and edit different 'Counts' to keep count of whatever they need.",
+        "image": "daily_count.png",
+        "link": "https://github.com/Flopez99/Daily-Count",
+        "techs":"Flutter, Dart, Android, Mobile"
+    },
+    {
         "id": 7,
         "name": "Space Cowboys",
         "description": "Java-based infinite sidescroller game where players pilot a spaceship through waves of enemies.",
