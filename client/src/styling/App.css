@@ -12,7 +12,6 @@
   flex-direction: column;
 }
 
-
 .App {
   text-align: center;
   z-index: 888;
@@ -23,8 +22,6 @@
   pointer-events: none;
   padding-top: 50px;
   margin-left: 50px;
-  
-
 }
 
 .section {
@@ -41,10 +38,12 @@
   text-align: left; /* Ensures header is aligned properly */
   font-size: 2em;
   font-weight: bold;
-  text-wrap:nowrap;
+  text-wrap: nowrap;
 }
 
-.section-text, .personal-introduction {
+.section-text,
+.personal-introduction {
+  color: #2e2e2e;
   text-align: left; /* Aligns text within the section */
 }
 
@@ -54,20 +53,19 @@
   border-radius: 10px;
 }
 
-
 .personal-introduction h2 {
-  color: #2E2E2E; /* Match your existing color palette */
-  font-family: 'Roboto', sans-serif;
+  color: #2e2e2e; /* Match your existing color palette */
+  font-family: "Roboto", sans-serif;
   font-size: 1.5em; /* Size to differentiate from body text */
 }
 
 .personal-introduction p {
   color: #333; /* Darker gray for better readability */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .App-header {
-  background-color: #DDE6ED;
+  background-color: #dde6ed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -81,7 +79,7 @@
   color: #61dafb;
 }
 
-.homepage-content{
+.homepage-content {
   width: 100%;
   min-height: auto; /* Allow dynamic height */
   display: flex;
@@ -90,37 +88,40 @@
   padding: 40px;
 }
 
-
 .personal-introduction {
-  background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Light background for contrast */
   border-radius: 10px;
   margin-top: 20px; /* Space between sections */
   /* margin-left: 5%; */
 }
 
-
 /* Fix homepage-picture responsiveness */
-.homepage-picture{
-  background-image: url('../assets/new-york-skyline.jpg');
+.homepage-picture {
+  background-image: url("../assets/new-york-skyline.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
-  position:relative;
+  position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   z-index: 888;
 
-  background-position:49.5% center; /* Move the focus to the right */
+  background-position: 49.5% center; /* Move the focus to the right */
 }
 
-.intro{
-  font-family: 'Roboto';
-  font-size:2em;
-  position:absolute;
-  bottom:20%;
-  color: #FFFFFF;
+.intro {
+  font-family: "Roboto";
+  font-size: 2em;
+  position: absolute;
+  bottom: 20%;
+  color: #ffffff;
   animation: fadeIn 2s ease-in-out;
 }
 
@@ -139,7 +140,6 @@
     align-items: center;
     box-sizing: border-box;
     padding: 10px;
-
   }
 
   /* Ensure personal-introduction section doesn’t overflow */
@@ -154,7 +154,6 @@
     margin: 5px auto;
   }
 }
-
 
 @keyframes fadeIn {
   from {
