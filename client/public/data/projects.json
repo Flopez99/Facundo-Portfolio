@@ -2,7 +2,7 @@
   {
     "id": 13,
     "name": "Chirp",
-    "description": "A birdwatching app that lets users log sightings, explore a global feed of recent observations, and browse a bird catalogue with details such as rarity and conservation status. Built with Flutter for cross-platform UI and Flask for backend services.",
+    "description": "A birdwatching app that lets users log sightings, explore a global feed of recent observations, and browse a bird catalogue with details such as rarity and conservation status.",
     "image": "chirp.png",
     "link": "https://github.com/Flopez99/Chirp",
     "techs": "Flutter, Dart, Flask, REST API"
